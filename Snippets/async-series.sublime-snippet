@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+return async.series({
+  ${1}: function(callback) {
+    $0
+  }
+}, callback);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>series</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+  <description>async.series: invoke async functions sequentially</description>
+</snippet>

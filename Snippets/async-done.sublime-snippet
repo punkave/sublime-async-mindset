@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+return callback(null);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>done</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+  <description>Invoke callback with err if err is truthy</description>
+</snippet>

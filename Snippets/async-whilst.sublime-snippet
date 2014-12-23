@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+var done = false;
+return async.whilst(
+  function() { return !done; },
+  function(callback) {
+    $0
+  }, callback
+);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>whil</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+  <description>async.whilst: an async "while" loop</description>
+</snippet>
