@@ -58,7 +58,7 @@ return setImmediate(callback);
 return setImmediate(_.partial(callback, null, data));
 ```
 
-**`whilst TAB ->`**
+**`whil TAB ->`**
 ```javascript
 var done = false;
 return async.whilst(
